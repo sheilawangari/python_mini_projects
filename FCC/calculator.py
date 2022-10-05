@@ -7,19 +7,19 @@
 
 def add(a, b):
     answer = a + b 
-    print(str(a) + " + " + str(b) + " = " + str(answer))   # changed to string for concantenation or you can use commas print(a, b)
+    print(str(a) + " + " + str(b) + " = " + str(answer) + "\n")   # changed to string for concantenation or you can use commas print(a, b)
      
 def sub(a, b):
     answer = a - b 
-    print(str(a) + " - " + str(b) + " = " + str(answer)) 
+    print(str(a) + " - " + str(b) + " = " + str(answer) + "\n") 
 
 def mul(a, b):
     answer = a * b 
-    print(str(a) + " * " + str(b) + " = " + str(answer))
+    print(str(a) + " * " + str(b) + " = " + str(answer) + "\n")
 
 def div(a, b):
     answer = a / b 
-    print(str(a) + " / " + str(b) + " = " + str(answer))
+    print(str(a) + " / " + str(b) + " = " + str(answer) + "\n")
 
 
 while True:              # program will not end until the quit method is called
